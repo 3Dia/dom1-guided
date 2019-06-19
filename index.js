@@ -20,3 +20,16 @@ console.log('lambdaButton', lambdaButton);
 
 const paragraph = document.querySelector('p');
 console.log(paragraph);
+
+
+// querySelector All
+
+const navLinks = document.querySelector('nav a');
+console.log("querySelector", navLinks);
+
+// versus
+
+const navLinksAll=document.querySelectorAll('nav a');
+console.log('querySelectorAll', navLinksAll);
+
+// node list -->ARRAY LIKE!
